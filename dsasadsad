@@ -1,0 +1,35 @@
+=> [[32m#<Product:0x0000555625b04d68[0m
+  id: [1;34m1[0m,
+  title: [31m[1;31m"[0m[31mDonas simples[1;31m"[0m[31m[0m,
+  price: [1;34m7400[0m,
+  description: [31m[1;31m"[0m[31m6 unidades bañadas en chocolate con chispas dulces, gluten free[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m02[0m:[1;34m36[0m:[1;34m48[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m00[0m:[1;34m34[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x000055562335c478[0m
+  id: [1;34m2[0m,
+  title: [31m[1;31m"[0m[31mAlfajor[1;31m"[0m[31m[0m,
+  price: [1;34m7400[0m,
+  description: [31m[1;31m"[0m[31m5 unidades en base de harína de almendras y avena relleno con manjar con opción sin lactosa[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m02[0m:[1;34m43[0m:[1;34m16[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m17[0m:[1;34m10[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x000055562335c3b0[0m
+  id: [1;34m3[0m,
+  title: [31m[1;31m"[0m[31mBarra CeliThea[1;31m"[0m[31m[0m,
+  price: [1;34m3400[0m,
+  description: [31m[1;31m"[0m[31m1 barra de 100 grs de chocolate con opción sin azúcar[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m21[0m:[1;34m51[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m21[0m:[1;34m51[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x000055562335c2e8[0m
+  id: [1;34m4[0m,
+  title: [31m[1;31m"[0m[31mCigarretes[1;31m"[0m[31m[0m,
+  price: [1;34m5700[0m,
+  description: [31m[1;31m"[0m[31m5 unidades rellenos con manjar y un pequeño baño de chocolate, con opción sin lactosa[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m43[0m:[1;34m30[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m43[0m:[1;34m30[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x000055562335c220[0m
+  id: [1;34m5[0m,
+  title: [31m[1;31m"[0m[31mNew-box(surtido)[1;31m"[0m[31m[0m,
+  price: [1;34m12900[0m,
+  description: [31m[1;31m"[0m[31mcontiene una variedad de productos todos libres de gluten, es especial para regalo[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m53[0m:[1;34m55[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m02[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m03[0m:[1;34m53[0m:[1;34m55[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]
