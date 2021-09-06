@@ -1,6 +1,9 @@
 class ProductsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index, :show]
+
+
   attr_accessor :product, :price, :description
+
   def index 
     @products = Product.all
   end
