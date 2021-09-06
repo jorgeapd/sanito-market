@@ -1,0 +1,11 @@
+<% @products.each do |product| %>
+<div class="card">  
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <button>"Añadir al carrito"</button>
+    <div>
+        <h2 class="text-center"><%= product.title %> </h2>
+        <p class="text-center">unidaes del producto</p>
+        <p class="text-center">$ <%= product.price %></p>
+    </div>
+</div>
+<% end %>
