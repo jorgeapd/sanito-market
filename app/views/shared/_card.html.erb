@@ -1,6 +1,8 @@
 <% @products.each do |product| %>
 <div class="card">  
-    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <div class="text-center">
+        <img class="img-fluid"   src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    </div>
     <a class="btn btn-flat" href="#">Añadir al carrito</a>
     <div class="info">
         <h2 class="text-center"><%= product.title %> </h2>
