@@ -1,0 +1,30 @@
+<div class="container container-show">
+    <div class="row">
+        <div class="col-6 text-center">
+            <img class= "rounded" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        </div>
+        <div class="col-6"> 
+            <h1><%= @product.title %></h1>
+            <h3>$ <%= @product.price %></h3>
+            <p>Aqui debe ir si hay stock</p>
+            <select name="amount">
+                <option value="1">1</option> 
+                <option value="2">2</option> 
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+                <option value="6">6</option> 
+            </select>
+            <a class="btn btn-flat" href="#">Añadir al carrito</a>
+            <div class="show-descripction">
+                <h3>Descripción</h3>
+                <p><%= @product.description %></p>
+            </div>
+            <div class="show-intoalerg">
+                <h3>Intolerancia o Alergías</h3>
+                <p>Aqui debe ir la intolerancia y/o tipo de alergias</p>
+            </div>
+        </div>
+    </div>
+</div>
+
