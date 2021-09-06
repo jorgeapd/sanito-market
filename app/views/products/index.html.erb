@@ -1,3 +1,4 @@
+
 <h1>Producto en promoción</h1>
 <div class="cards">
     <%= render 'shared/card' %>
@@ -6,3 +7,10 @@
 <div class="cards">
     <%= render 'shared/card' %>
 </div>
+
+<h1>Productos</h1>
+
+<% @products.each do |product| %>
+  <h2><%= product.title %><small><%= product.price %></small></h2>
+<% end %>
+
