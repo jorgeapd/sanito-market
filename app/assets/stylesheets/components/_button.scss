@@ -1,12 +1,26 @@
 .btn-flat {
-    color: white;
-    padding: 8px 24px;
-    border-radius: 4px;
-    background: $yellow;
-    transition: background 0.3s ease;
-  }
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $yellow;
+  transition: background 0.3s ease;
+}
   
-  .btn-flat:hover {
-    background: #FEF9EB;
-    color: $orange;
-  }
+.btn-flat:hover {
+  background: #FEF9EB;
+  color: $orange;
+}
+
+.btn-flat-category {
+  color: white;
+  padding: 8px 24px;
+  background: $yellow;
+  transition: background 0.3s ease;
+  width: 80%;
+  font-size: 12px;
+}
+  
+.btn-flat-category:hover {
+  background: #FEF9EB;
+  color: $orange;
+}
