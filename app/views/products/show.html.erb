@@ -16,7 +16,7 @@
                 <option value="5">5</option> 
                 <option value="6">6</option> 
             </select>
-            <a class="btn btn-flat" href="#">Añadir al carrito</a>
+            <%= link_to 'Añadir al carrito', carts_path(@product), method: :post, class:"btn btn-flat" %>  
             <div class="show-descripction">
                 <h3>Descripción</h3>
                 <p><%= @product.description %></p>
