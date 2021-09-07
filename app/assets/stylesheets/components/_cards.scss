@@ -1,0 +1,24 @@
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding: 30px;
+}
+
+.cards h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cards p {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: .7;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.cards .info {
+    margin-top: 5px;
+}
