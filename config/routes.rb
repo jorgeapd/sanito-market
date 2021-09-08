@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   
   #Agregando rutas para cart 
   resources :carts, only: [:create, :show, :edit]
+  get 'payment', to: 'pages#payment'
 end
