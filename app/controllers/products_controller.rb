@@ -21,7 +21,11 @@ class ProductsController < ApplicationController
     if @product.save 
       redirect_to product_path(@product)
     else 
+<<<<<<< HEAD
       render :new  
+=======
+      render :new
+>>>>>>> 36b7144288c403c2e61111241dcf5b25a9d4668b
     end
   end
 
