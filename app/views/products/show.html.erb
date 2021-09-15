@@ -7,6 +7,7 @@
         <div class="col-6"> 
             <h1><%= @product.title %></h1>
             <h3>$ <%= @product.price %></h3>
+            <p>Amount: <%= humanized_money_with_symbol(@product.price) %></p>
             <p>Aqui debe ir si hay stock</p>
             <select name="amount">
                 <option value="1">1</option> 
@@ -16,10 +17,14 @@
                 <option value="5">5</option> 
                 <option value="6">6</option> 
             </select>
-            <%= link_to 'Añadir al carrito', carts_path(@product), method: :post, class:"btn btn-flat" %>  
+            <%= link_to 'Añadir al carrito', carts_path(@product), method: :post, class:"btn btn-flat" %> 
             <div class="show-descripction">
                 <h3>Descripción</h3>
                 <p><%= @product.description %></p>
+                <%= form_tag orders_path do %>
+                  <%= hidden_field_tag 'product_id', @product.id %>
+                  <%= submit_tag 'Purchase', class: 'btn btn-primary' %>
+                <% end %>
             </div>
             <div class="show-intoalerg">
                 <h3>Intolerancia o Alergías</h3>

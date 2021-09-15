@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   #Agregando rutas para cart 
   resources :carts, only: [:create, :show, :edit]
   get 'payment', to: 'pages#payment'
+  resources :orders, only: [:show, :create] do
+    resources :payments, only: :new
+    get 'confirmation', to: 'order#confirmation'
+  end 
 end
