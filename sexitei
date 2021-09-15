@@ -1,0 +1,45 @@
+=> [[32m#<Product:0x000056188514e418[0m
+  id: [1;34m1[0m,
+  title: [31m[1;31m"[0m[31m6 Donas sin lactosa[1;31m"[0m[31m[0m,
+  price: [1;34m6000[0m,
+  description:
+   [31m[1;31m"[0m[31m6 unidades de donas simples bañadas en chocolate con chispas dulces, gluten free y sin lactosa, apto para celiacos[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x0000561885175a18[0m
+  id: [1;34m2[0m,
+  title: [31m[1;31m"[0m[31m10 bombones de chocolate[1;31m"[0m[31m[0m,
+  price: [1;34m2000[0m,
+  description: [31m[1;31m"[0m[31mapto para celiacos y sin lactosa[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x0000561885175950[0m
+  id: [1;34m3[0m,
+  title: [31m[1;31m"[0m[31mAlfajores con relleno de manjar[1;31m"[0m[31m[0m,
+  price: [1;34m7400[0m,
+  description:
+   [31m[1;31m"[0m[31m5 unidades de alfajor hecho en base de harina de almendras y avena, relleno con manjar. Existe opción sin lactosa[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x0000561885175888[0m
+  id: [1;34m4[0m,
+  title: [31m[1;31m"[0m[31mBarra CeliThea[1;31m"[0m[31m[0m,
+  price: [1;34m3400[0m,
+  description: [31m[1;31m"[0m[31mBarra de 100g de chocolate macizo. Existe opción sin azúcar[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x00005618851757c0[0m
+  id: [1;34m5[0m,
+  title: [31m[1;31m"[0m[31mCigarretes rellenos[1;31m"[0m[31m[0m,
+  price: [1;34m5700[0m,
+  description:
+   [31m[1;31m"[0m[31m5 unidades de cigarretes rellenos con manjar y un pequeño baño en chocolate. Existe opción sin lactosa[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Product:0x00005618851756f8[0m
+  id: [1;34m6[0m,
+  title: [31m[1;31m"[0m[31mBox Gluten Free[1;31m"[0m[31m[0m,
+  price: [1;34m12900[0m,
+  description: [31m[1;31m"[0m[31mBox contiene variedad de productos Gluten Free[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m14[0m [1;34;4mSep[0m [1;34m2021[0m [1;34m15[0m:[1;34m32[0m:[1;34m45[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]
