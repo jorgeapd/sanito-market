@@ -3,7 +3,7 @@
     <div class="text-center">
         <img class="img-fluid"   src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
     </div>
-    <a class="btn btn-flat" href="#">Añadir al carrito</a>
+    <%= link_to 'Añadir al carrito', product_path(product), class:"btn btn-flat" %>
     <div class="info">
         <h2 class="text-center"><%= product.title %> </h2>
         <p class="text-center">unidades del producto</p>
