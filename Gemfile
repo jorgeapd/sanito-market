@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
  gem 'bcrypt', '~> 3.1.7'
  gem 'devise', '~> 4.8'
  gem 'devise-bootstrap5'
+ gem 'nokogiri', '< 1.12.3'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
