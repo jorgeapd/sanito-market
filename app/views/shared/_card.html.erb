@@ -1,7 +1,27 @@
 <% @products.each do |product| %>
 <div class="card">  
     <div class="text-center">
-        <img class="img-fluid"   src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <% if product.title == "6 Donas sin lactosa" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152535/Sanito%20Market/photo_2021-09-08_12-32-20_eou3mt.jpg", 
+                width: 200, height: 200) %>
+        <% elsif product.title == "10 bombones de chocolate" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152576/Sanito%20Market/Bombones_ppd9zd.jpg", 
+                width: 200, height: 200) %>
+        <% elsif product.title == "Alfajores con relleno de manjar" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152539/Sanito%20Market/Alfajor_wzshgj.jpg", 
+                width: 200, height: 200) %>
+        <% elsif product.title == "Barra CeliThea" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152539/Sanito%20Market/Barra_CeliThea_vu1udb.jpg", 
+                width: 200, height: 200) %>
+        <% elsif product.title == "Cigarretes rellenos" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152539/Sanito%20Market/Cigarrets_xmmlpk.jpg", 
+                width: 200, height: 200) %>
+        <% elsif product.title == "Box Gluten Free" %>
+            <%= cl_image_tag("https://res.cloudinary.com/caroligu/image/upload/v1632152537/Sanito%20Market/Box_qgjfmm.jpg", 
+                width: 200, height: 200) %>
+        <% else %>
+            <img class= "rounded" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />       
+        <% end %>    
     </div>
     <a class="btn btn-flat" href="#">Añadir al carrito</a>
     <div class="info">
